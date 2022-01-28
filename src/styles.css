@@ -1,0 +1,131 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+.app {
+  font-family: Open Sans';
+}
+.nav {
+  position:fixed;
+  top: 0;
+  width: 100% !important;
+  z-index: 99 !important;
+}
+.rounded-signup {
+  border-radius: 20px !important;
+}
+.topBannerWrapper {
+  z-index: -1 !important;
+}
+.topBanner {
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-image: url(https://lirp.cdn-website.com/09b19d04/dms3rep/multi/opt/shutterstock_1489163804-2880w.jpg);
+  min-height: 110vh;
+  width: 100vw;
+  
+}
+.rounded-input {
+  border: none;
+  line-height: 50px;
+  border-radius: 25px;
+  font-size: 120%;
+  background: #f3f3f3 !important;
+}
+.rounded-input:focus {
+  border: none !important;
+}
+.topBannerWrapper {
+  position: relative;
+}
+.topBannerContent {
+  position: absolute;
+  top: 40% !important;
+}
+.formWrapper {
+  position: absolute;
+  bottom: -63px;
+  justify-content: center;
+  display: flex;
+  margin-right: 10px;
+}
+.formSubWrapper {
+  border-radius: 20px !important;
+}
+.upskill, .learning, .re-invent, .categoriesHeader, .articleText {
+  color: rgb(75,42,173,1) !important;
+}
+.middleBannerWrapper {
+  height: 110vh;
+  position: relative;
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-image: url(https://lirp.cdn-website.com/md/pexels/dms3rep/multi/opt/pexels-photo-6457490-2880w.jpeg);
+  z-index: -1 !important;
+}
+
+.middleBannerContent {
+  position: absolute;
+  top: 50%;
+}
+
+.join, .trainer {
+  color: white;
+}
+.upskill, .re-invent {
+  font-variant: bold;
+  font-weight: 700;
+}
+.learning {
+  font-size: 180%;
+}
+
+.categoriesWrapper {
+  padding-bottom: 180px;
+  padding-top: 180px;
+  min-height: 100vh;
+  background: #f7f7f7 !important;
+}
+
+.categoryLinkTag {
+  border: none;
+  border-radius: 30px;
+  background: rgba(75,42,173,1);
+  color: white;
+}
+
+.footer {
+  min-height: 100vh;
+  /* background: rgba(75,42,173,1); */
+}
+
+.articleImage {
+  border: none;
+  border-radius: 15px !important;
+}
+.artticleText {
+  font-size: 90%;
+}
+.articleAuthor {
+  font-size: 80%;
+}
+.categoryLinkTag:hover {
+  background: rgb(37, 9, 121) !important;
+  cursor: pointer !important;
+}
+.text-4xl {
+  font-size: 400% !important;
+}
+.text-5xl {
+  font-size: 450% !important;
+}
+
+.contact-us {
+  background: #407ab0;
+  border-radius: 25px;
+}
